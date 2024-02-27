@@ -1,0 +1,125 @@
+body {
+    height: 100vh;
+    background: linear-gradient(130deg, #5778b5, #8160b7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    background: transparent;
+    border: hidden;
+    padding: 20px;
+}
+input{
+    border: 0;
+    border-bottom: 2px solid rgb(31, 31, 54);
+    background: transparent;
+    border-radius: 5px;
+    color: black;
+    line-height: 20px;
+    width: 270px;
+}
+form{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(10, 19, 39, 0.158);
+}
+.cadastro{
+    font-size: 30px;
+    padding: 20px;
+}
+.email{
+    font-size: 20px;
+    padding: 15px;
+}
+.senha{
+    font-size: 20px;
+    padding: 15px;
+}
+.nome{
+    font-size: 20px;
+    padding: 15px;
+}
+img{
+    width: 300px;
+    height: 170px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.confsenha{
+    font-size: 20px;
+    padding: 15px;
+}
+.botaoLogin{
+    background: rgba(127, 120, 170, 0.774);
+    width: 60px; height: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid rgb(54, 50, 73);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.61);
+}
+::placeholder{
+    color: black;
+}
+@media (max-width: 760px) {
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        width: 400px;
+        height: 675px;
+    }
+    .login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .nome{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .email{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .senha{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .confsenha{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+}
